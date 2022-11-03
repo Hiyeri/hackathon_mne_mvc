@@ -6,7 +6,8 @@ from Processing.mne_wrapper_functions import (
 )
 
 ## Load data stored in an MNE Epochs object
-data = read_epochs("Data/real_data-epo.fif")
+# data = read_epochs("Data/real_data-epo.fif")
+data = read_epochs("Data/epochs-epo.fif")
 
 ## Compute connectivity
 methods = ["mic", "mim"]
